@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harish AK - Python Developer</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    .container {
+        display: flex;
+        max-width: 100%;
+        margin: 0;
+        background-color: #fff;
+    }
+    .sidebar {
+        width: 250px;
+        background-color: #0b0608;
+        color: #fff;
+        padding: 30px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        overflow-y: auto;
+    }
+    .sidebar img {
+        display: block;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+    .content {
+        flex: 1;
+        padding: 40px 60px;
+        margin-left: 250px;
+        margin-top: 80px;
+    }
+    header {
+        background-color: #080b0c;
+        color: #fff;
+        padding: 15px 30px;
+        position: fixed;
+        top: 0;
+        left: 250px;
+        right: 0;
+        height: 50px;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin-left: 10px;
+        transition: background-color 0.3s;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        background-color: #B0E0E6;
+        color: #333;
+    }
+    h1, h2 {
+        color: #4682B4;
+    }
+    .section {
+        margin-bottom: 40px;
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+        border-bottom: 2px solid #6A5ACD;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .section ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    .section ul li {
+        margin-bottom: 15px;
+        position: relative;
+    }
+    .section ul li::before {
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: 8px;
+        height: 100%;
+        width: 2px;
+        background-color: #3498db;
+    }
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .skill {
+        background-color: #B0E0E6;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 0.9em;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .skill:hover {
+        background-color: #4682B4;
+        color: #fff;
+        transform: translateY(-2px);
+    }
+    .contact-info {
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+    .social-links a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+        transition: color 0.3s;
+        font-weight: bold;
+    }
+    .social-links a:hover {
+        color: #B0E0E6;
+    }
+    #projects ul li {
+        background-color: #f8f9fa;
+        padding: 15px;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        border-radius: 8px;
+    }
+    #projects ul li:hover {
+        background-color: #e8e8e8;
+        transform: translateX(5px);
+    }
+    #projects h3 {
+        color: #4682B4;
+        margin-top: 0;
+    }
+    #projects p {
+        margin-bottom: 0;
+        color: #555;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <img src="profile.png" alt="Harish AK" width="150">
+        <div class="contact-info">
+            <p>+91 9361107996</p>
+            <p>harishak1607@gmail.com</p>
+            <p>Chennai, India</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/ak-Harish1">GitHub</a>
+            <a href="https://leetcode.com/u/Harish_AK/">LeetCode</a>
+            <a href="https://www.hackerrank.com/dashboard">HackerRank</a>
+        </div>
+    </div>
+    <header>
+        <h1 style="padding-left: 30px;">Harish AK</h1>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+        </nav>
+    </header>
+    <div class="content">
+        <section class="section" id="about-me">
+            <h2>About Me</h2>
+            <p>As a B.Tech student, I've engaged in diverse projects of machine learning, web development, and databases. I have hands-on experience with building practical AI applications, having utilized various ML algorithms and worked extensively with Flask and SQL. Additionally, I've created several static websites, gaining foundational knowledge in web development. My goal is to use my skills to drive innovation and make meaningful contributions to AI and ML initiatives.</p>
+        </section>
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>B.Tech - Artificial intelligence and machine learning</strong><br>
+                    Sri Ramachandra University<br>
+                    Jun 2021 - present
+                </li>
+                <li>
+                    <strong>School - Computer science</strong><br>
+                    St.Paul's Matriculation Higher Secondary School<br>
+                    Apr 2007
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Deep learning</strong> - Sri Ramachandra University<br>
+                    Sep 2023 - Nov 2023<br>
+                    Utilized YOLOv and Bugging Face to capture human activities and generate captions. Developed a ConvLSTM model for Human Activity Recognition.
+                </li>
+                <li>
+                    <strong>Full stack development</strong> - Pixel and Motors<br>
+                    Feb 2023 - Apr 2023<br>
+                    Developed a website using HTML, CSS, and Flask to store images. Utilized an S3 bucket for image storage.
+                </li>
+                <li>
+                    <strong>Natural Language processing</strong> - Sri Ramachandra University<br>
+                    Jun 2022 - Jul 2022<br>
+                    Analyzed sentiment of Bitcoin and Ethereum tweets using Python's NLTK and various machine learning algorithms.
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Crypto Coin Analysis</h3>
+                    <p>Utilized machine learning algorithms to analyze cryptocurrency trends and patterns.</p>
+                </li>
+                <li>
+                    <h3>Favorite Movie List</h3>
+                    <p>Developed a dynamic web application using JavaScript to add or remove movies from a personalized list.</p>
+                </li>
+                <li>
+                    <h3>Login System</h3>
+                    <p>Created a secure login system using MongoDB and Flask, implementing user authentication and session management.</p>
+                </li>
+                <li>
+                    <h3>Image Manipulation with Pillow</h3>
+                    <p>Implemented basic image processing operations using the Pillow library in Python.</p>
+                </li>
+                <li>
+                    <h3>Interactive Drawing Screen</h3>
+                    <p>Designed a web-based drawing application using JavaScript, allowing users to create digital artwork.</p>
+                </li>
+                <li>
+                    <h3>Multi-Model Chatbot</h3>
+                    <p>Developed a versatile chatbot integrating OpenAI, Bard APIs, and the LLAMA2 model for diverse conversational capabilities.</p>
+                </li>
+                <li>
+                    <h3>Language Translator</h3>
+                    <p>Built a translation tool to convert text between multiple languages, enhancing cross-lingual communication.</p>
+                </li>
+                <li>
+                    <h3>NASA API Integration</h3>
+                    <p>Incorporated NASA's API to fetch and display space-related data and imagery in a web application.</p>
+                </li>
+                <li>
+                    <h3>Text-to-Speech Converter</h3>
+                    <p>Implemented a system to convert written text into audible speech, improving accessibility.</p>
+                </li>
+                <li>
+                    <h3>Web Scraping with Beautiful Soup</h3>
+                    <p>Utilized Beautiful Soup to extract and analyze data from various websites, automating information gathering processes.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Python</span>
+                <span class="skill">Machine Learning</span>
+                <span class="skill">SQL</span>
+                <span class="skill">Flask</span>
+                <span class="skill">Web development</span>
+                <span class="skill">Github</span>
+                <span class="skill">Data structures</span>
+            </div>
+        </section>
+        <section class="section" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>50 days of coding badge - Leetcode (May 2024)</li>
+                <li>Python gold badge - Hackerrank (Sep 2023)</li>
+                <li>Java script for beginners - Simplilearn (Feb 2023)</li>
+                <li>Data science certification from IIT Kharagpur and upskillz (Nov 2022)</li>
+            </ul>
+        </section>
+    </div>
+</div>
+</body>
+</html>
